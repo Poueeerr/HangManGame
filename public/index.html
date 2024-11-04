@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da forca</title>
+</head>
+<body>
+    <h1>HangMan Game</h1>
+    <div>
+        
+        <label for="guess">Guess:</label>
+        <input type="text" name="guess" id="guess">
+        <button type="submit" class="sb">Send</button> 
+
+        <br>
+        <label for="guessw">Guess full word:</label>
+        <input type="text" name="guessw" id="guessw">
+        <button type="submit" class="sb">Send</button> 
+
+    </div>
+
+    <br>
+    <pre id="output"></pre>
+    <pre id="tries"></pre>
+    <pre id="wrong"></pre>
+    <pre id="gameover"></pre>
+    <button id="restart" style="display: none;">Try again?</button>
+    <script type="module" src="./scripts/func.js"></script>
+</body>
+</html>
